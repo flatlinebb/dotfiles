@@ -14,7 +14,7 @@ set softwrap
 ## Use the blank line below the titlebar as extra editing space.
 set morespace
 
-## Make the Home key smarter. 
+## Make the Home key smarter.
 set smarthome
 
 ## When saving a file, create a backup file by adding a tilde (~) to the file’s name.
