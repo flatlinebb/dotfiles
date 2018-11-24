@@ -26,5 +26,3 @@ set tabsize 2
 
 # Set all tabs to spaces, for Puppet
 set tabstospaces
-
-include /usr/share/nano/*.nanorc
