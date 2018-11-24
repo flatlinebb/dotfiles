@@ -1,28 +1,30 @@
-# Add persistent line numbers in Nano
+## Add persistent line numbers in Nano
 set linenumbers
 
-# Constantly display the cursor position in the status bar.
-# (The old form of this option, ’set const’, is deprecated.)
+## Constantly display the cursor position in the status bar.
+## (The old form of this option, ’set const’, is deprecated.)
 set constantshow
 
-#Use smooth scrolling by default.
+## Use smooth scrolling by default.
 set smooth
 
+## Enable 'soft wrapping'. nano will attempt to display the entire contents of a line, even if it is longer than the screen width.
 set softwrap
-# Use the blank line below the titlebar as extra editing space.
+
+## Use the blank line below the titlebar as extra editing space.
 set morespace
 
-# Make the Home key smarter. 
+## Make the Home key smarter. 
 set smarthome
 
-# When saving a file, create a backup file by adding a tilde (~) to the file’s name.
+## When saving a file, create a backup file by adding a tilde (~) to the file’s name.
 set backup
 
-# Set the directory where nano puts unique backup files if file backups are enabled.
+## Set the directory where nano puts unique backup files if file backups are enabled.
 set backupdir ~/.nano-backup
 
-# Tab size of 2 spaces for Puppet (Use a tab size of n instead of the default (8); must be greater than 0.)
+## Tab size of 2 spaces for Puppet (Use a tab size of n instead of the default (8); must be greater than 0.)
 set tabsize 2
 
-# Set all tabs to spaces, for Puppet
+## Set all tabs to spaces, for Puppet
 set tabstospaces
