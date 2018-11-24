@@ -1,0 +1,4 @@
+# Add persistent line numbers in Nano
+set linenumbers
+# Add persistent cursor location
+set constantshow
