@@ -1,5 +1,5 @@
-## Add persistent line numbers in Nano
-set linenumbers
+## Add persistent line numbers in Nano (Careful not to copy the line numbers with the text when using the mouse)
+# set linenumbers
 
 ## Constantly display the cursor position in the status bar.
 ## (The old form of this option, ’set const’, is deprecated.)
