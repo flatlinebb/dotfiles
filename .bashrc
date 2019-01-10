@@ -28,3 +28,4 @@ echo "        ------------------------------------------------------------------
 echo "  Your disk usage in /home/`whoami`:"
 echo "  `/usr/bin/du ~/ --si -s | awk '{printf $1} END {print "B out of 2.9TB"}'`"
 echo
+export TERM=xterm
