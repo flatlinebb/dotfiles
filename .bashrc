@@ -31,3 +31,13 @@ echo
 export TERM=xterm
 alias new-pass='pwgen -cnyB1 16'
 alias bwm-ng='bwm-ng -u bits -d'
+# Some more alias to avoid making mistakes:
+alias rm='rm -i'
+alias cp='cpg -ig'
+alias mv='mvg -ig'
+export PATH=$PATH:.
+alias df='pydf'
+alias reload='source .bashrc'
+alias du='ncdu'
+alias cd..='cd ..'
+[ -f /var/run/reboot-required ] && cat /var/run/reboot-required
